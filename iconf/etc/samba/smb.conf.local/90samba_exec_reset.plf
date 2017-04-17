@@ -1,0 +1,4 @@
+#!/usr/bin/perl -p -CSDAL
+
+s/  root preexec = \/usr\/lib\/iserv\/samba_exec login (.*) %U %R %i %I %a %d\n//;
+s/  root postexec = \/usr\/lib\/iserv\/samba_exec logout (.*) %U %R %i %I %a %d\n//;

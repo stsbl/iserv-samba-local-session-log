@@ -1,0 +1,9 @@
+#!/usr/bin/perl -n
+print;
+if (my ($share) = /^\[(.+)\]/)
+{
+  next if lc $share eq "global";
+  my $arg = "%U %R %i %I %a %d";
+  print "  root preexec = /usr/lib/iserv/samba_exec login $share $arg\n";
+  print "  root postexec = /usr/lib/iserv/samba_exec logout $share $arg\n";
+}
