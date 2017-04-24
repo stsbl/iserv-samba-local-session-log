@@ -1,3 +1,10 @@
+stsbl-iserv-samba-local-session-log (17.04.25-0) experimental; urgency=medium
+
+  [ Felix Jacobi ]
+  * Fixed package tags.
+
+ -- Stadtteilschule Blankenese <repository@stsbl.de>  Tue, 25 Apr 2017 00:02:22 +0200
+
 stsbl-iserv-samba-local-session-log (17.04.24-0) unstable; urgency=low
 
   * Initial Release.
