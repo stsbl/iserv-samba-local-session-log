@@ -1,0 +1,5 @@
+debian/stsbl-iserv-samba-local-session-log/*
+debian/stsbl-iserv-samba-local-session-log.substvars
+debian/stsbl-iserv-samba-local-session-log.debhelper.log
+debian/files
+debian/debhelper-build-stamp

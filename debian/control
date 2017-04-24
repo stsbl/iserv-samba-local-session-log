@@ -1,0 +1,13 @@
+Source: stsbl-iserv-samba-local-session-log
+Section: misc
+Priority: extra
+Maintainer: Stadtteilschule Blankenese <repository@stsbl.de>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+
+Package: stsbl-iserv-samba-local-session-log
+Architecture: all
+Depends: iserv-portal
+Description: IServ Samba - Log von Zugriffen auf benutzerdefinerte Freigaben
+ Schreibt Zugriffe auf in der smb.conf.local definierten Samba-Freigaben in das Sitzungsprotokoll.
+Tag: suite::iserv::portal, role::plugin 
