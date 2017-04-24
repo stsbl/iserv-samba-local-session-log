@@ -10,4 +10,4 @@ Architecture: all
 Depends: iserv-portal
 Description: IServ Samba - Log von Zugriffen auf benutzerdefinerte Freigaben
  Schreibt Zugriffe auf in der smb.conf.local definierten Samba-Freigaben in das Sitzungsprotokoll.
-Tag: suite::iserv::portal, role::plugin 
+Tag: suite::iserv:portal, role::plugin 
